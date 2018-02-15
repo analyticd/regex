@@ -10,7 +10,7 @@
 ;; The routine attempts to guess whether to use CSV (comma) or
 ;; TSV (tab) splitting.
 ;;
-;; The returned result from READ-CSV is an association list of groups,
+;; The returned result from READ-FILE is an association list of groups,
 ;; with each group containing an association list of columns identified by
 ;; column heading strings. Each column heading is accompanied by the
 ;; column vector of strings or numbers, depending on the data type declared
